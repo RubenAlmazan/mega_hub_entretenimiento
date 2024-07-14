@@ -23,11 +23,17 @@ Hub de entretenimiento en que se pueden visualizar películas; En esta plataform
 # Visualización del proyecto 
 
 ![image](https://github.com/user-attachments/assets/f3b6b4f9-a9b4-4f4f-a759-92a5b71c14fd)
+
 ![image](https://github.com/user-attachments/assets/5d29f7fe-43c5-475a-9693-c7895ce4027d)
+
 ![image](https://github.com/user-attachments/assets/0f056356-fecf-4b4e-aaf5-fa006468276d)
+
 ![image](https://github.com/user-attachments/assets/f4ad467a-6c8f-4c84-9389-917aba24cdb8)
+
 ![image](https://github.com/user-attachments/assets/d1064910-d73d-489f-b9d6-789c9e27c2ce)
+
 ![image](https://github.com/user-attachments/assets/107327c9-818f-44c0-b735-b079fe3798c5)
+
 ![image](https://github.com/user-attachments/assets/326893c9-7db3-4181-b066-a13e564ea585)
 
 # Visualización del proyecto con vista responsiva
