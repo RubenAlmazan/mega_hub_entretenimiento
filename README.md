@@ -55,19 +55,31 @@ Hub de entretenimiento en que se pueden visualizar películas; En esta plataform
 # Instrucciones para su instalacion
 
 --> Descargar el proyecto
+
 --> Descomprimir la carpeta en la ubicación requerida
+
 --> Descargar Nodejs
+
 --> Instalar Nodejs en el equipo
+
 --> Acceder a Visual Studio Code
+
 --> Abrir el proyecto en Visual Studio Code
+
 --> Abrir la terminal
+
 --> En la terminal, utilizar el comando npm install -g @angular/cli para instalar Angular
+
 --> Ejecutar ng serve para iniciar el proyecto
+
 
 ¡Listo! El proyecto está disponible.
 
+
 --> ng test: Este se utiliza para ejecutar las pruebas unitarias 
+
 --> ng test --code-coverage: Este se utiliza para ver el code coverage de las pruebas unitarias
+
 
 # Descripción de como se realizó
 
@@ -89,8 +101,11 @@ Por último, se incorporaron hilos asíncronos y se realizaron pruebas unitarias
 # Problemas conocidos
 
 --> Configuración de Angular
+
 --> Entender nuevos conceptos de programación (Angular, TypeScript, RXJS, testing, componentes, etc.)
+
 --> Ordenar los componentes para mejorar el funcionamiento del sistema.
+
 
 # Retrospectiva
 
