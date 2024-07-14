@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 232, 232);
+    height: 100vh;
+    color: #002d50;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002d50;
+
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: #002d50
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: white;
+}
+
+navbar-juegos {
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    padding: 6px;
+}
+
+tr {
+    background-color: f2f2f2;
+    text-align: center;
+}
+
+.navbar-juegos a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-juegos a:hover {
+    color: #002d50;
+}
+
+@media screen and (max-width: 300px) {
+    table thead {
+        display: flex;
+    }
+}
+
+button {
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border: 2px solid black;
+    /* Sin borde */
+    padding: 10px 20px;
+    /* Relleno interno */
+    font-size: 1em;
+    /* Tamaño del texto */
+    cursor: pointer;
+    /* Cambiar el cursor al pasar */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    width: 130px;
+    /* Ancho del botón */
+    height: 40px;
+}
+
+#catalogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bienvenida #titulo{
+    color: #002d50;
+    background-color: white;
+}
+
+.bienvenida #eslogan {
+    font-size: 20px;
+}
+
+#peliculas-favoritas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#catalogo img {
+    max-width: 200px;
+    max-height: 270px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    /* Agregado: cambia el cursor a puntero */
+}
+
+.hidden {
+    display: none;
+    /* Agregado: oculta el elemento */
+}
+
+#titulo {
+    font-size: 2.5em;
+    /* Tamaño del texto */
+    color: #002d50;
+    /* Color del texto */
+    text-align: center;
+    /* Centrado del texto */
+    padding: 10px;
+    /* Espaciado interno */
+    margin: 10px;
+    /* Elimina el margen por defecto del h1 */
+    line-height: 1.2;
+    /* Altura de línea */
+    max-width: 100%;
+    /* Ancho máximo */
+    border: 3px solid #002d50;
+    /* Borde sólido de color */
+    border-radius: 10px;
+    /* Radio de las esquinas */
+    display: inline-block;
+    box-sizing: border-box;
+    /* Incluir el borde en el ancho total */
+    display: block;
+    background-color: white;
+}
+
+#descripcion {
+    font-size: 1em;
+    /* Tamaño del texto */
+    color: #002d50;
+    /* Color del texto */
+    text-align: center;
+    /* Centrado del texto */
+    padding: 20px;
+    /* Espaciado interno */
+    margin: 10px;
+    /* Elimina el margen por defecto del h1 */
+    line-height: 1.2;
+    /* Altura de línea */
+    max-width: 100%;
+    /* Ancho máximo */
+    border: 2px solid #002d50;
+    /* Borde sólido de color */
+    border-radius: 10px;
+    /* Radio de las esquinas */
+    display: inline-block;
+    box-sizing: border-box;
+    /* Incluir el borde en el ancho total */
+    display: block;
+    background-color: white;
+}
+
+/* Estilos para centrar los botones */
+#botones {
+    text-align: center;
+}
+
+#botones button {
+    margin: 10px;
+    /* Espacio entre botones */
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    #titulo {
+        font-size: 2em;
+        /* Tamaño del texto para pantallas más pequeñas */
+    }
+}
+
+#catalogo_favorito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#catalogo_favorito img {
+    max-width: 200px;
+    /* ajusta el ancho máximo según sea necesario */
+    max-height: 270px;
+    /* ajusta la altura máxima según sea necesario */
+    object-fit: cover;
+    /* asegura que la imagen se ajuste dentro del tamaño especificado */
+    margin: 10px;
+    cursor: pointer;
+}
+
+.modo-button {
+    background-color: #002d50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 12px 24px; /* Espaciado interior */
+    font-size: 16px; /* Tamaño de la fuente */
+    border-radius: 5px; /* Borde redondeado */
+    display: flex; /* Para alinear ícono y texto */
+    justify-content: center; /* Alinear contenido al centro */
+    align-items: center; /* Alinear contenido al centro */
+    width: auto;
+  }
+
+  .modo-button:hover {
+    background-color: #ffffff; /* Cambio de color al pasar el mouse */
+    color: #002d50;
+  }
+
+  @media (max-width: 600px) {
+    .modo-button {
+      font-size: 14px; /* Reducir tamaño de fuente en pantallas pequeñas */
+      padding: 10px 20px; /* Reducir espaciado interior */
+    }
+  }
+
+  .dark-mode body {
+    background-color: #02192b;
+    /* Color de fondo en modo oscuro */
+    color: #fff;
+    /* Color de texto en modo oscuro */
+}
+
+.dark-mode header {
+    background-color: white;
+    /* Color de encabezado en modo oscuro */
+}
+
+.dark-mode .navbar-juegos tr {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #002d50;
+    border: 1px solid #002d50;
+
+}
+
+.dark-mode .navbar-juegos a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #002d50;
+
+}
+
+.dark-mode a {
+    color: white;
+    /* Color de pie de página en modo oscuro */
+}
+
+.dark-mode #titulo {
+    color: white;
+    background-color: #002d50;
+    border: 2px solid white;
+
+    /* Color de pie de página en modo oscuro */
+}
+
+.dark-mode #descripcion {
+    color: white;
+    background-color: #002d50;
+    border: 2px solid white;
+
+    /* Color de pie de página en modo oscuro */
+}

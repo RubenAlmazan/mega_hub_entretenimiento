@@ -1,0 +1,42 @@
+<h1 id="titulo">Conozca nuestro catalogo de peliculas</h1>
+
+<div id="catalogo">
+    <div *ngFor="let pelicula of peliculas">
+        <img [id]="pelicula.id_imagen" src="{{pelicula.id_clave}}.png" alt="{{pelicula.titulo}}"
+            (click)="mostrarPelicula(pelicula.id_div, pelicula.id)">
+    </div>
+</div>
+
+<div *ngFor="let pelicula of peliculas">
+    <div [id]="pelicula.id_div" class="texto-peliculas hidden">
+        <h1 id="titulo">{{pelicula.titulo}}</h1>
+        <div id="botones">
+            <button style="background-color: blue;" (click)="descripcionPelicula(pelicula.id_des, pelicula.id)">
+                <i class="fas fa-info-circle"></i> Descripcion
+            </button>
+    
+            <button style="background-color: red;" (click)="quitarPelicula(pelicula.id_quit, pelicula.id)">
+                <i class="fas fa-times-circle"></i> Quitar
+            </button>
+            
+            <button style="background-color: rgb(255, 238, 0); color:black" (click)="peliculaFavorita(pelicula.id)">
+                <i class="fas fa-star"></i> Favoritos
+            </button>    
+              
+              
+        </div>
+
+        <div [id]="pelicula.id_des" class="hidden">
+            <p id="descripcion">{{pelicula.descripcion}}</p>
+        </div>
+        <div [id]="pelicula.id_quit" class="hidden">
+            <p id="descripcion">¿Estás seguro que deseas eliminar esta película?</p>
+            <div id="botones">
+                <button style="background-color: green;" (click)="borrarPelicula(pelicula.id)">Si</button>
+                <button style="background-color: red;" (click)="quitarPelicula(pelicula.id_quit, pelicula.id)">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

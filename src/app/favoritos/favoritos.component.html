@@ -1,0 +1,35 @@
+<h1 id="titulo">Mis favoritos</h1>
+<div id="catalogo">
+    <ng-container *ngFor="let favoritoId of lista">
+        <ng-container *ngIf="findPelicula(favoritoId)">
+            <img [id]="findPelicula(favoritoId)?.id_clave" [src]="findPelicula(favoritoId)?.id_clave + '.png'"
+                [alt]="findPelicula(favoritoId)?.titulo"
+                (click)="mostrarPelicula(findPelicula(favoritoId)?.id_div, findPelicula(favoritoId)?.id)">
+        </ng-container>
+    </ng-container>
+</div>
+
+<div *ngFor="let favoritoId of lista">
+    <ng-container *ngIf="findPelicula(favoritoId)">
+        <div [id]="findPelicula(favoritoId)?.id_div" class="hidden">
+            <h1 id="titulo">{{findPelicula(favoritoId)?.titulo}}</h1>
+            <!-- Otros detalles de la película según sea necesario -->
+            <div id="botones">
+                <button style="background-color: blue;"
+                    (click)="descripcionPelicula(findPelicula(favoritoId)?.id_des, findPelicula(favoritoId)?.id)">
+                    <i class="fas fa-info-circle"></i> Descripcion
+                </button>
+
+                <button style="background-color: red;"
+                (click)="quitarPelicula(findPelicula(favoritoId)?.id)">
+                    <i class="fas fa-times-circle"></i> Quitar
+                </button>
+            </div>
+
+            <div [id]="findPelicula(favoritoId)?.id_des" class="hidden">
+                <p id="descripcion">{{ findPelicula(favoritoId)?.descripcion }}</p>
+            </div>
+            
+        </div>
+    </ng-container>
+</div>
