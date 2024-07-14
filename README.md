@@ -39,24 +39,30 @@ Hub de entretenimiento en que se pueden visualizar películas; En esta plataform
 # Visualización del proyecto con vista responsiva
 
 ![image](https://github.com/user-attachments/assets/fe2d1268-5d8f-4210-a9e6-f0817f5fcf6b)
+
 ![image](https://github.com/user-attachments/assets/b71bab82-29f6-4e96-85b6-e96361fd8fd1)
+
 ![image](https://github.com/user-attachments/assets/d46c7b3d-e585-4f48-8089-29dc9191d9cd)
+
 ![image](https://github.com/user-attachments/assets/db7cc98e-c4c8-435e-bc36-9f1aff3a662d)
+
 ![image](https://github.com/user-attachments/assets/b26ca399-63fe-4265-8b85-7704979c576e)
+
 ![image](https://github.com/user-attachments/assets/5f8fc34a-ad02-4b9a-8ebf-3b73f979afec)
+
 ![image](https://github.com/user-attachments/assets/3d1af8c4-170c-4532-a9f4-008fcab6e48e)
 
 # Instrucciones para su instalacion
 
---> Descargar el proyecto.
---> Descomprimir la carpeta en la ubicación requerida.
---> Descargar Node.js.
---> Instalar Node.js en el equipo.
---> Acceder a Visual Studio Code.
---> Abrir el proyecto en Visual Studio Code.
---> Abrir la terminal.
---> En la terminal, utilizar el comando npm install -g @angular/cli para instalar Angular.
---> Ejecutar ng serve para iniciar el proyecto.
+--> Descargar el proyecto
+--> Descomprimir la carpeta en la ubicación requerida
+--> Descargar Nodejs
+--> Instalar Nodejs en el equipo
+--> Acceder a Visual Studio Code
+--> Abrir el proyecto en Visual Studio Code
+--> Abrir la terminal
+--> En la terminal, utilizar el comando npm install -g @angular/cli para instalar Angular
+--> Ejecutar ng serve para iniciar el proyecto
 
 ¡Listo! El proyecto está disponible.
 
