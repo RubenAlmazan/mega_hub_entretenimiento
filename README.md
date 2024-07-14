@@ -59,15 +59,41 @@ Hub de entretenimiento en que se pueden visualizar películas; En esta plataform
 
 # Descripción de como se realizó
 
+Para realizar este proyecto, se requirieron tres fases: la creación del sitio, su migración a Angular, y las pruebas unitarias.
+En cada etapa, hubo retos que afrontar, desde fallas lógicas con JavaScript para darle la funcionalidad deseada al proyecto, hasta la falta de experiencia en la migración de proyectos a otras plataformas, así como el desafío de aprender nuevas tecnologías como Angular, RXJS, Karma, Jasmine, entre otras. Poco a poco, fui adquiriendo el conocimiento necesario para realizar este proyecto, a través de la consulta de diferentes medios para aprender estas nuevas tecnologías, como el curso de Liderly, las clases impartidas, videos, documentación, recursos independientes, entre otros. Con esto, fui creando cada una de las funciones presentadas y aprendiendo sobre nuevas herramientas que no conocía y que me ayudarán a mejorar mis habilidades como programador.
 
+En una primera etapa, se desarrolló este sistema utilizando HTML, CSS y JavaScript. Fue un reto interesante, ya que pude retomar mis conocimientos en HTML y CSS para crear el diseño de esta página. Al aprender más sobre JavaScript en esta capacitación, pude combinar mis habilidades previas con estos nuevos temas para incorporarlos a la idea del proyecto. De esta manera, se logró terminar esta etapa del proyecto.
 
+En la segunda etapa, se migró este proyecto a Angular, lo que implicó cambiar la lógica del sistema de JavaScript a TypeScript. Esto fue un reto difícil, ya que nunca había trabajado con Angular ni con TypeScript, así que fui consultando cursos y videos para aprender sobre esta nueva tecnología. El desafío aquí fue migrar cada función del sistema a un nuevo lenguaje sin que afectara a otras funciones y esperar el resultado deseado. Sin embargo, poco a poco, y a pesar del tiempo, se logró migrar todas las funciones del sistema, y pudo ejecutarse correctamente en este nuevo entorno de Angular.
 
+Por último, se incorporaron hilos asíncronos y se realizaron pruebas unitarias, dos conceptos completamente nuevos para mí. El reto aquí fue aprender qué era cada uno, qué hacer con estas herramientas y cómo programarlas dentro del proyecto. Por un lado, con la ayuda de videos en Internet, se creó una función que utiliza hilos asíncronos para almacenar las películas favoritas de los usuarios. Por otro lado, tras consultar múltiples fuentes de información, se realizaron las pruebas unitarias, enfocándose en las principales funciones de cada componente y comprobando si las funciones existían y si realizaban la acción deseada.
 
+# Reporte de Code Coverage y Reporte de testing
 
+![image](https://github.com/user-attachments/assets/ad46ece5-c9cc-4157-8917-1ef67affea5e)
 
+![image](https://github.com/user-attachments/assets/710b6c26-1851-4c5c-8d8b-44d5dda8918a)
 
+# Problemas conocidos
 
+--> Configuración de Angular
+--> Entender nuevos conceptos de programación (Angular, TypeScript, RXJS, testing, componentes, etc.)
+--> Ordenar los componentes para mejorar el funcionamiento del sistema.
 
+# Retrospectiva
+
+¿Qué hice bien?
+
+Aprender y utilizar mis conocimientos para crear soluciones que enfrentaran los retos durante el desarrollo de este proyecto.
+
+¿Qué no salió bien?
+
+Organización personal, control de tiempos, y dedicar demasiado tiempo a algunas funciones que no requerían tanto detalle.
+
+¿Qué puedo hacer diferente?
+
+Mejorar mi organización, mejorar la estructura de mis componentes para eficientar el funcionamiento de mis sistemas.
+Dedicar tiempo al aprendizaje de las nuevas tecnologías que se soliciten para este proyecto y para el mundo laboral en general y tener una idea clara y detallada de lo que se quiere realizar con las funciones a desarrollar.
 
 # Instrucciones de Angular para su instalación
 
